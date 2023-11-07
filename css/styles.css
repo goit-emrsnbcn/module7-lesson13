@@ -1,0 +1,55 @@
+/* body {
+    background-color: yellowgreen;
+} */
+
+/*
+max-width going down
+min-width going up
+*/
+
+/* @media (max-width: 991px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: blueviolet;
+    }
+} */
+
+/* in between 500px up to 900px */
+/* @media (max-width: 900px) and (min-width: 500px) {
+    body {
+        background-color: red;
+    }
+} */
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    border: 2px solid black;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .col-4 {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-4 {
+        width: 30%;
+    }
+}
+
+@media (max-width: 420px) {
+}
